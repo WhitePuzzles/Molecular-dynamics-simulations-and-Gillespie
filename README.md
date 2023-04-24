@@ -1,10 +1,10 @@
 # Molecular-dynamics-simulations-and-Gillespie
 # 分子动力学模拟和Gillespie算法的耦合（julia）
 
-具体用法参照test.jl
-
 # 简介
 目前在分子动力学模拟方面已有像OpenMM、LAMMPS和GROMACS之类的软件包，在化学反应模拟方面有Gillespie.jl这样的Julia包，但将两个方面耦合起来的高性能程序还少之又少，因此难以模拟复杂的生物模型，本项研究工作的目的是填补这方面的空缺，利用Julia的高性能计算平台开发出一个快速便捷的软件包，来为生命科学研究者或其他研究人员提供便捷快速的模型建立和模拟。
+
+# 具体用法参照README及test.jl
 
 # to do list
 1.查明v3速度慢的原因
